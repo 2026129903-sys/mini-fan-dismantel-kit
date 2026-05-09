@@ -1,1 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fancycle Mini Fan Dismantle Station</title>
 
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background:#f5fff5;
+    color:#222;
+    overflow-x:hidden;
+}
+
+/* HEADER */
+
+header{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+    url('https://images.unsplash.com/photo-1497436072909-f5e4be8c8e1f?q=80&w=1200&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+    width:100%;
+    max-width:1300px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:70px;
+    color:#0b5d1e;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.hero-text h2{
+    background:#0b5d1e;
+    color:white;
+    display:inline-block;
+    padding:12px 25px;
+    border-radius:50px;
+    margin-bottom:25px;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.8;
+    max-width:600px;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:650px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* NAVBAR */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#0b5d1e;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#b6ffbf;
+}
+
+/* SECTION */
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:45px;
+    color:#0b5d1e;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#0b5d1e;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.card p, .card li{
+    line-height:1.8;
+}
+
+.card ul{
+    margin-left:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:20px;
+    height:100%;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+/* SOCIAL */
+
+.social{
+    background:#0b5d1e;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.social h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.social p{
+    font-size:20px;
+}
+
+.insta{
+    font-size:35px;
+    margin:20px 0;
+    font-weight:bold;
+    color:#b6ffbf;
+}
+
+/* FOOTER */
+
+footer{
+    background:#063312;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero-text h1{
+    font-size:45px;
+}
+
+.hero{
+    text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">HOME</a>
+<a href="#about">ABOUT</a>
+<a href="#gallery">GALLERY</a>
+<a href="#social">SOCIAL MEDIA</a>
+</nav>
+
+<header>
+
+<div class="hero">
+
+<div class="hero-text">
+<h1>MINI FAN DISMANTLE STATION</h1>
+
+<h2>DISASSEMBLE • SORT • RECYCLE</h2>
+
+<p>
+A smart and eco-friendly station designed to help users safely dismantle mini fans, sort electronic parts, and promote responsible e-waste recycling.
+</p>
+</div>
+
+<div class="hero-image">
+<img src="YOURIMAGE.jpg">
+</div>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2 class="title">ABOUT OUR PROJECT</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌍 Vision</h3>
+<p>
+To create a cleaner and more sustainable future by encouraging proper e-waste management and environmental awareness through hands-on recycling activities.
+</p>
+</div>
+
+<div class="card">
+<h3>🎯 Mission</h3>
+<p>
+The mission of the Fancycle Mini Fan Dismantle Station is to promote environmental sustainability by educating people on proper e-waste management and encouraging responsible recycling practices.
+</p>
+</div>
+
+<div class="card">
+<h3>♻ Objectives</h3>
+<ul>
+<li>Promote e-waste awareness</li>
+<li>Teach safe dismantling skills</li>
+<li>Sort recyclable materials</li>
+<li>Support sustainable recycling</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>👩‍💻 Developer</h3>
+<p>
+Developed by students as an innovation project for environmental sustainability and e-waste education.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title">PROJECT GALLERY</h2>
+
+<div class="gallery">
+
+<img src="YOURPOSTER1.jpg">
+<img src="YOURPOSTER2.jpg">
+<img src="YOURPOSTER3.jpg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">AVAILABLE FOR</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏫 Schools</h3>
+<p>Environmental education activities and STEM projects.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Universities</h3>
+<p>Innovation exhibitions and sustainability programs.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Community</h3>
+<p>Recycling campaigns and environmental awareness events.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="social" id="social">
+
+<h2>FOLLOW US</h2>
+
+<div class="insta">@fancycle.my</div>
+
+<p>
+Recycling awareness • DIY dismantling guides • Sustainability projects • E-waste education
+</p>
+
+</div>
+
+<footer>
+© 2026 Fancycle Mini Fan Dismantle Station
+</footer>
+
+</body>
+</html>
